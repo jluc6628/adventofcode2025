@@ -14,6 +14,7 @@ def main():
                 line = line[1:]
                 num = -int(line)
 
+
             if num >0:
                 while(num >0):
                     current += 1
@@ -27,19 +28,6 @@ def main():
                     if current % 100 == 0:
                         code += 1
                     num += 1
-
-
-
-
-
-
-
-            # current = current% 100
-            # if current == 0:
-            #     code += 1
-
-            # print("step", current,"code", code)
-            # print()
 
     print(code)
     pass
