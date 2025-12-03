@@ -1,7 +1,7 @@
 def main():
     code = 0
     num = 50
-    with open("day1/day1.txt","r") as file:
+    with open("input.txt","r") as file:
         lines = file.readlines()
         for line in lines:
             if line[0] == "R":
